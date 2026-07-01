@@ -1,0 +1,54 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Models (large files - download separately)
+models/*.bin
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.gguf
+models/*.safetensors
+
+# Audio/Output files
+audio/*.wav
+audio/*.mp3
+audio/*.ogg
+outputs/*.wav
+outputs/*.mp3
+outputs/*.ogg
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Environment & Secrets
+.env
+*.env
+config/secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Assets (large voice clone samples - optional)
+assets/voice_samples/*.wav
+assets/voice_samples/*.mp3

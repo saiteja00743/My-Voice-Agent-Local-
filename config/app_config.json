@@ -1,0 +1,10 @@
+{
+  "theme": "dark",
+  "last_voice_file": "D:\\dataset record\\Standard recording 1.mp3",
+  "last_language": "en",
+  "last_output_dir": "D:\\",
+  "auto_play_after_generate": true,
+  "normalize_audio": true,
+  "trim_silence": true,
+  "max_history_items": 20
+}
